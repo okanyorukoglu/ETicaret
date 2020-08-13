@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OKAN\\Desktop\\ETicaret\\CommerceMVC\\CommerceMVC.csproj": {}
+    "c:\\Users\\OKAN\\Desktop\\ETicaret\\CommerceMVC\\CommerceMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OKAN\\Desktop\\ETicaret\\CommerceMVC\\CommerceMVC.csproj": {
+    "c:\\Users\\OKAN\\Desktop\\ETicaret\\CommerceMVC\\CommerceMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OKAN\\Desktop\\ETicaret\\CommerceMVC\\CommerceMVC.csproj",
+        "projectUniqueName": "c:\\Users\\OKAN\\Desktop\\ETicaret\\CommerceMVC\\CommerceMVC.csproj",
         "projectName": "CommerceMVC",
-        "projectPath": "C:\\Users\\OKAN\\Desktop\\ETicaret\\CommerceMVC\\CommerceMVC.csproj",
+        "projectPath": "c:\\Users\\OKAN\\Desktop\\ETicaret\\CommerceMVC\\CommerceMVC.csproj",
         "packagesPath": "C:\\Users\\OKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OKAN\\Desktop\\ETicaret\\CommerceMVC\\obj\\",
+        "outputPath": "c:\\Users\\OKAN\\Desktop\\ETicaret\\CommerceMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
